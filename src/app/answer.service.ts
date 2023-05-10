@@ -12,6 +12,6 @@ export class AnswerService {
   ) {}
 
   getAnswer(question: string) {
-    return this.http.post("http://localhost:8000/ask", {question});
+    return this.http.post("http://134.209.237.30:8000/ask", {question});
   }
 }
